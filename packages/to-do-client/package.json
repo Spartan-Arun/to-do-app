@@ -1,0 +1,49 @@
+{
+  "name": "client",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "arun <arunkumar.sowmyan@gmail.com>",
+  "homepage": "https://github.com/Spartan-Arun/to-do-app#readme",
+  "license": "ISC",
+  "main": "src/app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spartan-Arun/to-do-app.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "start": "nodemon --exec \"node src/compile && node server.js\" --watch src --reload"
+  },
+  "bugs": {
+    "url": "https://github.com/Spartan-Arun/to-do-app/issues"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.27",
+    "esbuild-register": "^3.3.2"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "connect-livereload": "^0.6.1",
+    "crypto": "^1.0.1",
+    "express": "^4.17.3",
+    "firebase": "^9.6.10",
+    "global": "^4.4.0",
+    "live-server": "^1.2.1",
+    "livereload": "^0.9.3",
+    "nodemon": "^2.0.15",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.2.1",
+    "react-dom": "^17.0.2",
+    "react-query": "^3.34.16",
+    "styled-component": "^2.8.0",
+    "styled-components": "^5.3.5",
+    "uuid": "^8.3.2"
+  }
+}

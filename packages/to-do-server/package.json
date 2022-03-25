@@ -1,0 +1,29 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "arun <arunkumar.sowmyan@gmail.com>",
+  "homepage": "https://github.com/Spartan-Arun/to-do-app#readme",
+  "license": "ISC",
+  "main": "server/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spartan-Arun/to-do-app.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/Spartan-Arun/to-do-app/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}

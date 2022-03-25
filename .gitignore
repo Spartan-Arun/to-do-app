@@ -1,4 +1,6 @@
 .dccache
-**/**/packkage-lock.json
+**/package-lock.*
 lerna-debug.log
-yarn-lock.json
+yarn.lock
+**/node_modules
+**/.DS_Store
